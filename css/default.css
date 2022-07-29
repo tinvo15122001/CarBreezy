@@ -1,0 +1,10 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+}
+
+@media (min-width: 576px) {
+  .w-sm-25 {
+    width: 25%;
+  }
+}

@@ -1,0 +1,81 @@
+<section class="section-products-filter bg-light">
+  <div class="container py-3">
+    <div class="d-flex justify-content-between">
+      <form>
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Select type</option>
+          <option value="1">SUVs</option>
+          <option value="2">Sedans</option>
+          <option value="3">Hatchbacks</option>
+          <option value="4">Convertibles</option>
+        </select>
+      </form>
+
+      <form>
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      </form>
+    </div>
+    <div class="cars">
+      
+    </div>
+  </div>
+</section>
+
+<section class="section-products-cars">
+  <div class="container py-5">
+    <div class="row d-flex">
+      <div class="card text-center pt-4" data-bs-toggle="modal" data-bs-target="#exampleModal" style="width: 18rem;">
+        <img src="../images/2022-Honda-Civic.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Honda Civic</h5>
+          <p class="card-text"><small>Starting MSRP</small></p>
+          <p class="card-text"><strong>$23,645</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Honda Civic</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../images/2022-Honda-Civic.jpg" class="w-100" alt="">
+        <p class="modal-text"><strong>$23,645</strong></p>
+
+        <div class="d-flex align-items-start">
+          <div class="nav nav-tabs flex-column me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link active" id="v-pills-internal-tab" data-bs-toggle="pill" data-bs-target="#v-pills-internal"
+              type="button" role="tab" aria-controls="v-pills-internal" aria-selected="true">Internal</button>
+            <button class="nav-link" id="v-pills-external-tab" data-bs-toggle="pill" data-bs-target="#v-pills-external"
+              type="button" role="tab" aria-controls="v-pills-external" aria-selected="false">External</button>
+            <button class="nav-link" id="v-pills-engine-tab" data-bs-toggle="pill" data-bs-target="#v-pills-engine"
+              type="button" role="tab" aria-controls="v-pills-engine" aria-selected="false">Engine</button>
+            <button class="nav-link" id="v-pills-dimensions-tab" data-bs-toggle="pill" data-bs-target="#v-pills-dimensions"
+              type="button" role="tab" aria-controls="v-pills-dimensions" aria-selected="false">Dimensions</button>
+          </div>
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-internal" role="tabpanel" aria-labelledby="v-pills-internal-tab">
+              internal
+            </div>
+            <div class="tab-pane fade" id="v-pills-external" role="tabpanel" aria-labelledby="v-pills-external-tab">
+              external
+            </div>
+            <div class="tab-pane fade" id="v-pills-engine" role="tabpanel" aria-labelledby="v-pills-engine-tab">
+              engine
+            </div>
+            <div class="tab-pane fade" id="v-pills-dimensions" role="tabpanel" aria-labelledby="v-pills-dimensions-tab">dimensions</div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Buy now</button>
+      </div>
+    </div>
+  </div>
+</div>

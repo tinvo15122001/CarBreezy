@@ -1,0 +1,16 @@
+.section-products-cars .card {
+  box-shadow: 2px 2px 7px 0 rgb(1 1 1 / 15%);
+}
+.section-products-cars .card:hover {
+  cursor: pointer;
+}
+.modal .nav-tabs .nav-link {
+  border-right-color: #dee2e6;
+}
+.modal .nav-tabs .nav-link.active {
+  border-bottom-color: #dee2e6;
+  border-right-color: #fff;
+}
+.modal .nav-tabs {
+  border-bottom: none;
+}

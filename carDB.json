@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "brand": "Honda",
+    "model": "Civic 1.5L E",
+    "image": "honda-civic.png",
+    "new": true,
+    "style": "Sedan",
+    "internal-specification": {
+      "drive-type" : "FWD",
+      "transmission" : "CVT",
+      "fuel-capacity": "46l"
+    },
+    "external": {
+      "exterior-color": "white"
+    },
+    "engine": "1.5L Turbo",
+    "dimensions": "4.678 x 1.802 x 1.415"
+  }
+]
